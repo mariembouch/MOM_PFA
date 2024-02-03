@@ -20,6 +20,8 @@ export default function Home() {
 
   return (
     <div>
+            <h4>welcome home  </h4>
+
       <h3>Your account: {account} </h3>
       <h3>Your email: {email} </h3>
       <AdminMenu />
