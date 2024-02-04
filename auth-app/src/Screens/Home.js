@@ -1,12 +1,9 @@
-//ons123
-
-// Home.js
-//hahahaahahh
+//mmmmmmneeelll
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import AdminMenu from "./AdminMenu";
 import { useWeb3 } from "../Web3helpers";
-
+//ons jehcha 
 export default function Home() {
   const email = localStorage.getItem("email");
   const account = localStorage.getItem("account");
