@@ -6,7 +6,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import AdminMenu from "./AdminMenu";
 import { useWeb3 } from "../Web3helpers";
-
+//ons jehcha 
 export default function Home() {
   const email = localStorage.getItem("email");
   const account = localStorage.getItem("account");
@@ -20,7 +20,7 @@ export default function Home() {
   if (!web3Data || !web3Data.accounts) {
     return <div>Error loading web3 data</div>;
   }
-
+// maryam bagra
   return (
     <div>
             <h4>welcome home  </h4>
@@ -42,7 +42,8 @@ export default function Home() {
     </div>
   );
 }
-
+//hhhh
+//manel
 const button = {
   width: 100,
   padding: 10,
