@@ -2,7 +2,16 @@
 import * as React from "react";
 import { loadBlockchainData, loadWeb3 } from "../Web3helpers";
 import { useNavigate } from "react-router-dom";
+<<<<<<< HEAD
 //lalala 
+=======
+
+//la vie en jaune 
+
+
+//lalala 
+
+>>>>>>> MB
 export default function SignIn() {
 const [email, setEmail] = React.useState("");
 const [password, setPassword] = React.useState("");
