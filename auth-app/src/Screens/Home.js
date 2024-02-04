@@ -1,7 +1,4 @@
-//ons123
-
-// Home.js
-//hahahaahahh
+//mmmmmmneeelll
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import AdminMenu from "./AdminMenu";
@@ -20,7 +17,7 @@ export default function Home() {
   if (!web3Data || !web3Data.accounts) {
     return <div>Error loading web3 data</div>;
   }
-// maryam bagra
+
   return (
     <div>
             <h4>welcome home  </h4>
@@ -42,8 +39,7 @@ export default function Home() {
     </div>
   );
 }
-//hhhh
-//manel
+
 const button = {
   width: 100,
   padding: 10,
